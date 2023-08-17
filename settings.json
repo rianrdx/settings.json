@@ -1,17 +1,24 @@
 {
-    "indentRainbow.indicatorStyle": "light",
+    "workbench.productIconTheme": "fluent-icons",
+    "symbols.hidesExplorerArrows": false,
+    "workbench.iconTheme": "symbols",
+    "workbench.startupEditor": "none",
+
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.fontWeight": "500",
     "editor.lineHeight": 24,
     "editor.fontSize": 14,
-    "terminal.integrated.fontFamily": "Fira Code",
-    "terminal.integrated.fontSize": 14,
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.tabSize": 2,
-    "workbench.startupEditor": "none",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontSize": 14,
     "explorer.compactFolders": false,
+    
     "emmet.syntaxProfiles": {
         "JavaScript": "jsx"
     },
@@ -19,19 +26,4 @@
         "JavaScript": "javascriptreact"
     },
     "tabnine.experimentalAutoImports": true,
-    "workbench.productIconTheme": "fluent-icons",
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true,
-        "source.addMissingImports": true
-    },
-    "explorer.confirmDelete": false,
-    "symbols.hidesExplorerArrows": false,
-    "explorer.confirmDragAndDrop": false,
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "workbench.iconTheme": "symbols",
-    "editor.minimap.renderCharacters": false,
-    "editor.minimap.enabled": false,
-    "workbench.colorTheme": "One Dark Modern"
 }

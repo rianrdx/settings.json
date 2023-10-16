@@ -1,29 +1,40 @@
 {
-    "workbench.productIconTheme": "fluent-icons",
-    "symbols.hidesExplorerArrows": false,
-    "workbench.iconTheme": "symbols",
-    "workbench.startupEditor": "none",
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.startupEditor": "none",
+  "symbols.hidesExplorerArrows": false,
+  "workbench.iconTheme": "symbols",
+  "workbench.productIconTheme": "fluent-icons",
 
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "editor.fontWeight": "500",
-    "editor.lineHeight": 24,
-    "editor.fontSize": 14,
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
-    "editor.tabSize": 2,
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "terminal.integrated.fontFamily": "Fira Code",
-    "terminal.integrated.fontSize": 14,
-    "explorer.compactFolders": false,
-    
-    "emmet.syntaxProfiles": {
-        "JavaScript": "jsx"
-    },
-    "emmet.includeLanguages": {
-        "JavaScript": "javascriptreact"
-    },
-    "tabnine.experimentalAutoImports": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "500",
+  "editor.lineHeight": 24,
+  "editor.fontSize": 14,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+
+  "terminal.integrated.fontFamily": "Fira Code",
+  "terminal.integrated.fontSize": 14,
+
+  "explorer.compactFolders": false,
+
+  "emmet.syntaxProfiles": {
+    "JavaScript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "JavaScript": "javascriptreact"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "explorer.confirmDelete": false,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "redhat.telemetry.enabled": true,
+  "zenMode.centerLayout": false,
+  "zenMode.fullScreen": false,
+  "explorer.confirmDragAndDrop": false
 }

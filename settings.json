@@ -1,40 +1,56 @@
+
 {
-  "workbench.colorTheme": "One Dark Pro",
-  "workbench.startupEditor": "none",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Vesper ++",
   "symbols.hidesExplorerArrows": false,
   "workbench.iconTheme": "symbols",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.statusBar.visible": false,
   "workbench.productIconTheme": "fluent-icons",
-
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "editor.fontWeight": "500",
-  "editor.lineHeight": 24,
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 14,
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontSize": 14,
+  "editor.lineHeight": 1.8,
+  "editor.rulers": [80, 120],
+  "editor.renderLineHighlight": "gutter",
+  "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  "editor.tabSize": 2,
-
-  "terminal.integrated.fontFamily": "Fira Code",
-  "terminal.integrated.fontSize": 14,
-
+  "editor.fontLigatures": true,
+  "window.menuBarVisibility": "compact",
+  "workbench.editor.labelFormat": "short",
   "explorer.compactFolders": false,
-
-  "emmet.syntaxProfiles": {
-    "JavaScript": "jsx"
-  },
-  "emmet.includeLanguages": {
-    "JavaScript": "javascriptreact"
-  },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.autopep8"
-  },
-  "tabnine.experimentalAutoImports": true,
+  "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "editor.minimap.enabled": false,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "explorer.confirmDelete": false,
-  "security.workspace.trust.untrustedFiles": "newWindow",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
   "redhat.telemetry.enabled": true,
-  "zenMode.centerLayout": false,
-  "zenMode.fullScreen": false,
-  "explorer.confirmDragAndDrop": false
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community"
 }
